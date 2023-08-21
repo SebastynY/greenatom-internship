@@ -12,7 +12,6 @@ class LinkedList {
 
     ListNode head;
 
-
     public void add(int value) {
         ListNode newNode = new ListNode(value);
         if (head == null) {
@@ -40,7 +39,6 @@ class LinkedList {
         }
         head = prev;
     }
-
 
     public void printList() {
         ListNode temp = head;
